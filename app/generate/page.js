@@ -1,1 +1,3 @@
-export default function Generate(){return <main className="page"><div className="wrap"><div className="glass card"><h1>Generate</h1><textarea placeholder="Tulis ide motion atau gambar"/><br/><br/><select><option value="prompt">Motion Prompt</option><option value="image">Image</option></select><br/><br/><button className="btn">Generate</button><p className="muted">Endpoint: /api/generate</p></div></div></main>}
+import GenerateImageStudio from '../../components/GenerateImageStudio'
+
+export default function Generate(){return <main className="page"><div className="wrap"><div className="nav"><b>Aiagent Generate</b><div className="links"><a className="link" href="/dashboard">Dashboard</a><a className="link" href="/settings">API Manager</a></div></div><GenerateImageStudio/></div></main>}
