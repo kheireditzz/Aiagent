@@ -1,0 +1,1 @@
+export default function Forgot(){return <main className="page"><div className="wrap"><div className="glass card"><h1>Reset Password</h1><p className="muted">Masukkan email untuk link reset dari Supabase.</p><input placeholder="Email"/><br/><br/><button className="btn">Kirim Link</button></div></div></main>}
