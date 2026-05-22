@@ -1,0 +1,1 @@
+export default function Upload(){return <main className="page"><div className="wrap"><div className="glass card"><h1>Upload Foto</h1><p className="muted">Upload foto referensi untuk workflow AI.</p><input type="file" accept="image/*"/><br/><br/><textarea placeholder="Catatan workflow"/><br/><br/><button className="btn">Simpan Upload</button></div></div></main>}
