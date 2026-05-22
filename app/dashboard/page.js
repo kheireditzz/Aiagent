@@ -1,0 +1,2 @@
+const items=['Prompt Motion','Generate Gambar','Upload Foto','Riwayat','API Key','ComfyUI']
+export default function Dashboard(){return <main className="page"><div className="wrap"><div className="nav"><b>Aiagent Dashboard</b><div className="links"><a className="link" href="/settings">Settings</a><a className="link" href="/upload">Upload</a></div></div><div className="grid three">{items.map(x=><div className="glass card" key={x}><h2>{x}</h2><p className="muted">Module siap dikembangkan untuk workflow AI.</p></div>)}</div></div></main>}
