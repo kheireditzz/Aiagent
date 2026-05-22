@@ -1,1 +1,3 @@
-export default function Settings(){return <main className="page"><div className="wrap"><div className="glass card"><h1>API Key Settings</h1><p className="muted">Isi key di .env.local untuk production. Halaman ini untuk panduan input provider.</p><div className="grid cols"><input placeholder="Gemini API Key"/><input placeholder="Hugging Face API Key"/><input placeholder="Cloudflare Account ID"/><input placeholder="Cloudflare API Token"/><input placeholder="ComfyUI Local URL"/></div><br/><button className="btn">Simpan Lokal</button></div></div></main>}
+import ProviderPanel from '../../components/ProviderPanel'
+
+export default function Settings(){return <main className="page"><div className="wrap"><ProviderPanel/></div></main>}
