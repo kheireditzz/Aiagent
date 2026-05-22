@@ -1,0 +1,1 @@
+export default function Login(){return <main className="page"><div className="wrap"><div className="glass card"><h1>Login</h1><input placeholder="Email"/><br/><br/><input placeholder="Password"/><br/><br/><button className="btn">Masuk</button><p><a className="link" href="/register">Buat akun</a></p></div></div></main>}
