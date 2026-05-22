@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"es2017","strict":true,"noEmit":true,"jsx":"preserve"},"include":["next-env.d.ts","app","lib","components"]}
