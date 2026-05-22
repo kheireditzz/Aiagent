@@ -1,0 +1,1 @@
+export default function Register(){return <main className="page"><div className="wrap"><div className="glass card"><h1>Register</h1><input placeholder="Name"/><br/><br/><input placeholder="Email"/><br/><br/><button className="btn">Create</button></div></div></main>}
