@@ -1,0 +1,2 @@
+const data=['Draft prompt','Image job','Video plan']
+export default function Workflows(){return <main className="page"><div className="wrap"><div className="nav"><b>Workflows</b><a className="link" href="/dashboard">Dashboard</a></div><div className="glass card"><h1>Workflow Board</h1><p className="muted">Kelola project, prompt, upload, provider, status, dan hasil generate.</p>{data.map(x=><div className="glass card" key={x} style={{marginTop:12}}><h2>{x}</h2><p className="muted">Status: draft</p></div>)}</div></div></main>}
